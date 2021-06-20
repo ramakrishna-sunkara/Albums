@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Albums</string>
+    <string name="standard_error_message">Something wen\'t wrong, please try again.</string>
+    <string name="retry">Retry</string>
+</resources>
