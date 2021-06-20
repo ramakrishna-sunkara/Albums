@@ -15,6 +15,16 @@ List of albums -> https://jsonplaceholder.typicode.com/albums
 # Tech Stack
 Android, Java, MVVM, JetPack, Room DB 
 
+# Future Improvements: 
+1. Pagination can be added. But current given api not supporting pagination
+2. Can be implement project in MFE. But as given requirement is small so developed by using single module approach
+3. Style for each view and can create custom views for list items
+
+# Added Test cases 
+1. AlbumviewModel
+2. AlbumService
+3. AlbumEntity
+
 
 # Apk link
 https://github.com/ramakrishna-sunkara/Albums/blob/master/apk/app-debug.apk
