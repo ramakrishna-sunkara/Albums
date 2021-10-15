@@ -3,18 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_light"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/splash_bg"
     tools:context=".ui.SplashActivity">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animationView"
+    <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:lottie_rawRes="@raw/splash_gif"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"/>
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/app_raidal_bg"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

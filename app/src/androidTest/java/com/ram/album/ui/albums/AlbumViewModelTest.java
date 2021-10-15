@@ -1,6 +1,5 @@
 package com.ram.album.ui.albums;
 
-import androidx.arch.core.executor.testing.InstantTaskExecutorRule;
 import androidx.lifecycle.Observer;
 
 import com.ram.album.base.BaseApplication;
@@ -30,9 +29,9 @@ import static org.mockito.Mockito.when;
 @RunWith(MockitoJUnitRunner.class)
 public class AlbumViewModelTest {
 
-    @Rule
+   /* @Rule
     public InstantTaskExecutorRule instantTaskExecutorRule = new InstantTaskExecutorRule();
-
+*/
     @Mock
     public BaseApplication application;
 

@@ -8,7 +8,7 @@ import android.view.WindowManager;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.ram.album.R;
-import com.ram.album.ui.albums.AlbumsActivity;
+import com.ram.album.ui.login.LoginActivity;
 
 public class SplashActivity extends AppCompatActivity {
     private static final int SPLASH_TIME = 5000;
@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(SplashActivity.this, AlbumsActivity.class);
+            Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
             startActivity(intent);
             finish();
         }, SPLASH_TIME);
